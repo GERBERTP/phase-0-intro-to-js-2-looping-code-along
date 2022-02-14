@@ -14,9 +14,9 @@ function wrapGifts(gifts) {
     for (let i = 0; i < gifts.length; i++) {
         console.log(`Wrapped ${gifts[i]} and added a bow!`);
         debugger;
-    } 
+    } ;
     return gifts;
-}
+};
 wrapGifts(gifts);
 
 const cards = ["Blue", "Green", "Purple"]
@@ -26,13 +26,13 @@ function writeCards(cards) {
   for (let g = 0; g < cards.length; g++) {
     
     writeCardsNew.push(`Thank you, ${cards[g]}, for the wonderful surprise gift!`)
- }
+ };
  
  return writeCardsNew
-}
+};
 function countDown () {
 let countDown = 10
     while (countDown > -1) {
         console.log(countDown -- );
-    }
-}
+    };
+};
